@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Multi-Step Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form first">
+        <h1 class="heading">Name</h1>
+        <input type="text" placeholder="Enter First Name" />
+        <input type="text" placeholder="Enter Last Name" />
+        <div class="btn-cont">
+          <button class="prve-btn">Previous</button>
+          <button class="nxt-btn">Next</button>
+        </div>
+      </form>
+      <form class="form second hidden">
+        <h1 class="heading">Login Info</h1>
+        <input type="text" placeholder="Create Username" />
+        <input type="password" placeholder="Create Password" />
+        <div class="btn-cont">
+          <button class="prve-btn">Previous</button>
+          <button class="nxt-btn">Next</button>
+        </div>
+      </form>
+      <form class="form third hidden">
+        <h1 class="heading">Contacts</h1>
+        <input type="email" placeholder="Enter Your Email" />
+        <input type="number" placeholder="Enter Your Mobile Number" />
+        <div class="btn-cont">
+          <button class="prve-btn">Previous</button>
+          <button class="nxt-btn">Next</button>
+        </div>
+      </form>
+      <form class="form fourth hidden">
+        <h1 class="heading">Date of Birth</h1>
+        <input type="number" placeholder="Enter Your Birth Date" />
+        <input type="number" placeholder="Enter Your Birth Month" />
+        <input type="number" placeholder="Enter Your Birth Year" />
+        <div class="btn-cont">
+          <button class="prve-btn">Previous</button>
+          <button class="nxt-btn">Next</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
